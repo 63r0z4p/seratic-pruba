@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gerard.gestion_de_contactos.Registro"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/heigth"
+        android:background="@drawable/usuario_login_foreground"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edit_txt_nombre_R"
+        android:text="@string/nombre_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Apellido_paterno_R"
+        android:text="@string/apellido_paterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Apellido_Materno_R"
+        android:text="@string/apellido_materno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Correo_R"
+        android:text="@string/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/direccion_R"
+        android:text="@string/Direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Fecha_nacimiento_R"
+        android:text="@string/fecha_nacimiento_R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contraseña">
+    </EditText>
+
+    <EditText
+        android:id="@+id/confirmar_contraseña_R"
+        android:text="@string/confirmar_Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+</LinearLayout>
